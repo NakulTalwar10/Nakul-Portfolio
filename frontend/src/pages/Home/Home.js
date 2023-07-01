@@ -11,7 +11,7 @@ import nakultalwar from '../../img/WhatsApp Image 2023-06-23 at 17.15.22.jpg';
 
 const Home = () => {
   return (
-    <div>
+    <div id='Home'>
       <div className='mains py-3 relative'>
         <ul className='flex text-white container'>
           <li className='mx-4 font-bold text-2xl'>
