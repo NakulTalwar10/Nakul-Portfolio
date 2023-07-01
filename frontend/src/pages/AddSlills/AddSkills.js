@@ -24,7 +24,7 @@ const AddSkills = () => {
         e.preventDefault()
 
         try {
-            const response = axios.post('http://localhost:8000/addskills', {
+            const response = axios.post('https://portfolio-backend-tp9e.onrender.com/addskills', {
                 skills,
                 rating
             })

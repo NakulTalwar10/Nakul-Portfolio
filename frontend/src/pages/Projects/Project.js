@@ -21,7 +21,7 @@ const Project = () => {
 
   const fetchProjects = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/getprojects');
+      const response = await axios.get('https://portfolio-backend-tp9e.onrender.com/getprojects');
       setProjects(response.data);
     } catch (error) {
       console.log(error);
@@ -30,7 +30,7 @@ const Project = () => {
 
   const fetchEducation = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/geteducation')
+      const response = await axios.get('https://portfolio-backend-tp9e.onrender.com/geteducation')
       setEducation(response.data)
 
     } catch (error) {
@@ -40,7 +40,7 @@ const Project = () => {
 
   const fetchSkills = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/getskills')
+      const response = await axios.get('https://portfolio-backend-tp9e.onrender.com/getskills')
       setSkills(response.data)
     } catch (error) {
       console.log(error);

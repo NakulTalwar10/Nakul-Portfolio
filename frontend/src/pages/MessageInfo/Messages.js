@@ -15,7 +15,7 @@ const Messages = () => {
 
   const fetchMessages = () => {
     axios
-      .get('http://localhost:8000/getmessage')
+      .get('https://portfolio-backend-tp9e.onrender.com/getmessage')
       .then((response) => {
         setMessages(response.data);
         setIsLoading(false);

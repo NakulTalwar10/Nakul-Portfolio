@@ -23,7 +23,7 @@ const Contact = () => {
     };
 
     axios
-      .post('http://localhost:8000/addmessage', messageData)
+      .post('https://portfolio-backend-tp9e.onrender.com/addmessage', messageData)
       .then((response) => {
         setName('');
         setEmail('');

@@ -22,7 +22,7 @@ const AddEducation = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const response = await axios.post('http://localhost:8000/addeducation', formdata)
+            const response = await axios.post('https://portfolio-backend-tp9e.onrender.com/addeducation', formdata)
             console.log(response);
         } catch (error) {
             console.log(error);
