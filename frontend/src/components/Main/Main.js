@@ -10,7 +10,7 @@ const Main = () => {
                 <h1 className='head-3 font-bold text-white my-3 text-3xl'>Full Stack Developer | MERN Stack</h1>
             </div>
             <button className='btn-1'>
-                <a href="https://drive.google.com/file/d/11gvJJrIKuk95DdTJo_tUH6zltvA32ckV/view?usp=sharing" target='_blank' rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1kQ-qM8CbBbLo6Pw0jjs_8BLYNP2HRfTV/view?usp=sharing" target='_blank' rel="noreferrer">
                     <h1 className='hover:text-white'> Resume</h1>
                 </a>
             </button>

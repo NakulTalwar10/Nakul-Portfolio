@@ -22,7 +22,7 @@ const About = () => {
                             <p className='font-semibold mt-3'>Expert in developing Responsive & Interactive websites |Expert in CSS3, HTML5, Bootstrap, and React
                                 JS |Very good knowledge of JavaScript, and Node JS. Make Resonsive and attractive websites. Make work as my first priority.</p>
                             <button alt='Download cv' className='nakul_cv my-5'>
-                                <a href="https://drive.google.com/file/d/11gvJJrIKuk95DdTJo_tUH6zltvA32ckV/view?usp=sharing" target='_blank' rel="noreferrer">
+                                <a href="https://drive.google.com/file/d/1kQ-qM8CbBbLo6Pw0jjs_8BLYNP2HRfTV/view?usp=sharing" target='_blank' rel="noreferrer">
                                     <i>D</i>
                                     <i>o</i>
                                     <i>w</i>
